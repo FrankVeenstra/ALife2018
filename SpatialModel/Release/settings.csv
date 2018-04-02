@@ -1,0 +1,34 @@
+,Biomass Production,0.0008, 	How quickly vegetation grows
+,Initial Biomass,0.2,
+,Display Vegetation,1, 		Whether you would like to see the vegetation growing
+,Mutation Rate,0.01,		
+,Developmental Swaps,0,		Swipperdieswap
+,Evolve Center,1,		Either have individuals being initialized from HIFF center (1) or randomly initialize individuals
+,Max Reward Factor,1.2,		How much the Global Optima should be additionally rewarded
+,Reproduction Rate,0.1,
+,Cost Of Reproduction,0.4,	Minimal biomass required for an individual to produce an offspring is 2* COR. 1 COR is lost in the parent and will be the offpsring biomass
+,Max Prey Mass,1.0,		Max prey mass
+,Min Prey Mass,0.01,		Lowest threshold mass for prey to survive. 
+,File Name,test,			File name
+,Stop After,20000, 		(times 100), amount simulation cycles
+,Headless,0,			simulation without visualization
+,Window Size,200,		creates grid of size (window size * window size)
+,Gene Size,32,			Length bit genome
+,Prey Eat Efficiency,0.2,	how well biomass from plants is converted in prey biomass
+,Mass Loss,0.01,		Mass lost at every time-step
+,Evolve Developmental Timing,0, 
+,Evolve Mortality,0,
+,Initial Mortality State,1,	1 = mortal, 0 = immortal
+,Mortality Mutation Rate,0.01,	
+,Use Max Age,0,			Age cap (1 = on, 0 = off)
+,Evolve Max Age,0,		
+,Initial Max Age,250,		
+,Max Age Mutation Rate,0.01,	
+,Use Death Rate,0,		Death Probability (1 = on, 0 = off)
+,Evolve Death Rate,0,
+,Death Mutation Rate,0.01,
+,Initial Death Rate,0.0,
+,Movement Speed,1.0,		How many cells a prey can move each cycle. 
+,Cannibalism,0,
+,Include Predator,0,
+,Initial Amount Predators,5,
